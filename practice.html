@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de tareas personal.</title>
+    <meta charset='utf-8'>
+    <style type="text/css">
+        body{
+            font-family: Helvetica, Arial;
+        }
+        li{
+            width: 50%;
+            list-style-type: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de tareas personal.</h1>
+    <hr>
+    <br>
+    <button type="button" id="btn" onclick="añadirItems">Añadir Item</button>
+    <input type="text" id="texto">
+
+    <!---<ul id="lista"> </ul>-->
+    <ul id="ul"> </ul>
+
+   <script type="text/javascript">
+       function addItem(){
+    var ul = document.getElementById('ul'); //ul
+    var li = document.createElement('li');//li
+
+    var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.value = 1;
+        checkbox.name = "todo[]";
+
+    li.appendChild(checkbox);
+
+    var text = document.getElementById('texto');
+    li.appendChild(document.createTextNode(text.value));
+    ul.appendChild(li); 
+}
+
+var button = document.getElementById('btn');
+button.onclick = addItem
+   </script>
+</body>
+</html>
