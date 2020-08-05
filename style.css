@@ -1,0 +1,201 @@
+body{
+    background-color: #6ebbee;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+.bg{
+    width: 90%;
+    height: 100%;
+    background-image: url(./png.png);
+    background-position: bottom;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+}
+.text-1 h1{
+    font-size: 80px;
+    padding-top:5%;
+    padding-left: 15%;
+    font-weight: bold;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: #d437bf(228, 51, 51);
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 15%;
+
+    
+}
+.btn h2{
+   padding-top: 4px;
+}
+
+
+/*todo*/
+
+
+.bg-2{
+    width: 100%;
+    height: 100%;
+    background-image: url(./—Pngtree—young\ woman\ drinking\ coffee\ and_5332145.png);
+    background-position: bottom;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+.btn-2{
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 420px;
+    background-color: #d437bf;
+}
+#add{
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-left: 146px;
+    font-size: x-large;
+    text-align: center;
+}
+#list{
+    margin-left: 158px;
+    
+    font-size:large;
+    text-align: left;
+}
+#list li{
+    border: 2px solid black;
+    background-color: white;
+    width: 500px;
+    padding: 4px;
+    margin: 5px;
+    list-style-type: none;
+    
+}
+#check{
+    width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+  background-color: red;
+  padding: 10px;
+
+
+}
+.error{
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+
+@media(max-width:400px){
+    .bg{
+        width: 100%;
+        height: 80%;
+        background-image: url(./png.png);
+        background-position: bottom;;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 20%;
+    
+    }
+    .text-1{
+        text-align: center;
+    }
+    .text-1 h1{
+        font-size: 80px;
+        padding-top:5%;
+        font-weight: bold;
+        padding-left:0%;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        background-color:#d437bf; 
+        text-align: center;
+        border-radius: 25px;
+        align-items: center;
+        justify-content: center;
+
+    
+        
+    }
+    .btn h2{
+       padding-top: 4px;
+    }
+    
+    
+
+
+    .bg-2{
+        width: 100%;
+        height: 80%;
+        background-image: url(./—Pngtree—young\ woman\ drinking\ coffee\ and_5332145.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 30%;
+    
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .btn-2{
+        width: 60px;
+        height: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 40%;
+    }
+    #add{
+        width: 340px;
+        height: 50px;
+        border-radius: 25px;
+        border: 2px solid black;
+        margin-left: 0px;
+        font-size: large;
+        text-align: center;
+    }
+    #list{
+        margin-left: 0px;
+        
+        font-size:large;
+    }
+    #list li{
+        border: 2px solid black;
+        background-color: white;
+        width: 250px;
+        padding: 3px;
+        margin: 10px;
+        list-style-type: none;
+        
+    }
+    #check{
+        width: 15px; /*Desired width*/
+      height: 15px; /*Desired height*/
+      padding: 10px;
+    
+    
+    }
+    
+}
